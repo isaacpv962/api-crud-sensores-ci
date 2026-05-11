@@ -20,7 +20,7 @@ app.get('/api/sensors/:id', (req, res) => {
   const sensor = sensors.find(s => s.id === parseInt(req.params.id));
   if (!sensor) return res.status(404).json({ message: 'Sensor no encontrado' });
   res.status(200).json(sensor);
-});
+});asdasdasdasd
 
 app.post('/api/sensors', (req, res) => {
   const newSensor = {
