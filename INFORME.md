@@ -1,8 +1,8 @@
 # Informe de Práctica: Integración Continua con GitHub Actions
 
-**Estudiante:** Hernan Isaac Peñaranda Villarroel
-**Docente:** Ing. Marcelo Quispe Ortega
-**Universidad:** Universidad Mayor Real y Pontificia de San Francisco Xavier de Chuquisaca (USFX)
+**Estudiante:** Hernan Isaac Peñaranda Villarroel<br>
+**Docente:** Ing. Marcelo Quispe Ortega<br>
+**Universidad:** Universidad Mayor Real y Pontificia de San Francisco Xavier de Chuquisaca (USFX)<br>
 **Carrera:** Ingeniería en Ciencias de la Computación
 
 ## 1. Descripción del Proyecto
