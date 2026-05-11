@@ -1,0 +1,32 @@
+name: Pipeline CI Completo
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build-lint-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout del código
+        uses: actions/checkout@v6
+
+      - name: ⚙️ Setup de Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '20'
+
+      - name: 📦 Instalar dependencias
+        run: npm ci
+
+      - name: 🔍 Ejecutar Linting
+        run: npm run lint
+
+      - name: 🧪 Ejecutar pruebas unitarias
+        run: npm test
+
+      - name: 📊 Generar reporte de cobertura
+        run: npm run test:cov
