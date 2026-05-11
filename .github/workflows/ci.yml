@@ -30,3 +30,11 @@ jobs:
 
       - name: 📊 Generar reporte de cobertura
         run: npm run test:cov
+
+
+
+
+
+
+
+
