@@ -4,3 +4,6 @@ Esta es una API construida con Express.js para la gestión de dispositivos IoT, 
 
 ## Documentación del Laboratorio
 - [📄 Ver Informe Académico del Laboratorio](./INFORME.md)
+
+
+
