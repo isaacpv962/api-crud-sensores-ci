@@ -20,7 +20,7 @@ El workflow realiza las siguientes validaciones automáticamente en cada *push* 
 
 - **Workflow exitoso:** ![Exito](./img/exito.png)
 
-- **Workflow fallido:** ![Fallo](./img/fallo.png)
+- **Workflow fallido:** ![Fallo](./img/fallido.png)
 
 - **Protección de la rama `main`:** ![Proteccion](./img/proteccion.png)
 ![Proteccion_2](./img/proteccion2.png)
