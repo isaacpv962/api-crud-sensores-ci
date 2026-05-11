@@ -21,6 +21,6 @@ El workflow realiza las siguientes validaciones automáticamente en cada *push* 
 - **Workflow exitoso:** `![Exito](./img/exito.png)`
 - **Workflow fallido:** `![Fallo](./img/fallo.png)`
 - **Protección de la rama `main`:** `![Proteccion](./img/proteccion.png)`
-
+`![Proteccion_2](./img/proteccion2.png)`
 ## 4. Conclusiones
 La implementación de Integración Continua garantiza que el código integrado a la rama principal cumpla con estándares de calidad, se encuentre libre de errores de sintaxis y pase satisfactoriamente la suite de pruebas.
